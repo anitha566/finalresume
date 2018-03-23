@@ -1,0 +1,84 @@
+body{
+  background-color: #fce123;
+}
+.flex-main{
+  display:flex;
+  flex-direction:row;
+}
+.profile-card{
+  width:25%;
+  background-color: #ddd;
+  padding:2%;
+  margin:2%;
+}
+.content-card{
+  width:75%;
+  background-color: #ddd;
+  padding:2%;
+  margin:2%;
+}
+
+.profile_img{
+  display: block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2,h3{
+  text-align: center;
+}
+@media only screen and (min-width:320px) and (max-width:468px){
+  .flex-main{
+    display:flex;
+    flex-direction:column;
+  }
+  .profile-card{
+    width:100%;
+    background-color: #ddd;
+    padding:2%;
+    margin:2%;
+  }
+  .content-card{
+    width:100%;
+    background-color: #ddd;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:469px) and (max-width:768px){
+  .flex-main{
+    display:flex;
+    flex-direction:row;
+  }
+  .profile-card{
+    width:100%;
+    background-color: #ddd;
+    padding:2%;
+    margin:2%;
+  }
+  .content-card{
+    width:100%;
+    background-color: #ddd;
+    padding:2%;
+    margin:2%;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex-main{
+    display:flex;
+    flex-direction:row;
+  }
+  .profile-card{
+    width:100%;
+    background-color: #ddd;
+    padding:2%;
+    margin:2%;
+  }
+  .content-card{
+    width:100%;
+    background-color: #ddd;
+    padding:2%;
+    margin:2%;
+  }
+}

@@ -1,0 +1,21 @@
+.flex{
+  display:flex;
+  border:solid;
+  flex-direction:column;
+  width:70%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  color:red;
+  text-align:center;
+}
+h3{
+  display:block;
+  background-color:#ddd;
+}
+table,tr,th,td{
+  border:solid;
+  text-align: center;
+}
